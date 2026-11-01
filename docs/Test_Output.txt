@@ -1,0 +1,31 @@
+PASS Real Argon2id produces 128-bit salt, 256-bit hash, and correct verification
+PASS Same password with fresh salts yields different stored hashes
+PASS Register, normalize email, sign in, access session, and sign out
+PASS Wrong password and unknown account never create a session
+PASS Duplicate email is rejected without writing or replacing an account
+PASS Password boundaries, including 12-byte and 1024-byte round trips
+PASS Name and email validation rejects malformed and oversized values
+PASS Persistence stores real verifiers and no entered password
+PASS Runtime polymorphism uses both abstract interfaces and equal-cost unknown-account verification
+PASS Failed commit leaves saved and in-memory accounts unchanged
+PASS Active session guards prevent switching identity without signing out
+PASS Malformed JSON, bad profile, invalid hex, and duplicate stored IDs/emails are rejected
+PASS Bounded file sizes and cooperative file locking
+PASS 500-account limit and duplicate-serialization protection
+PASS SecretBuffer transfers ownership and forbids accidental copying
+PASS Real write failure preserves database and registration state; POSIX private permissions
+PASS Symlink database targets are refused
+17 core scenarios passed, 0 failed. Fictional accounts only.
+
+PASS Website-style registration form is real and password input is hidden
+PASS Mismatched confirmation and invalid email cannot create an account
+PASS Create account persists real 128-bit salt and 256-bit hash and clears input
+PASS Second account with the same password has a different salt and hash
+PASS Duplicate account rejected without replacing saved records
+PASS Wrong-password login shows a real failed hash comparison and no session
+PASS Correct login shows matching hashes and a genuine account session
+PASS Account records show actual saved JSON with hashes and no plaintext password
+PASS OOP explorer explains all eight concepts using real project classes
+PASS Accounts survive application-window restart; correct password still authenticates
+PASS Failed database write creates no account and leaves the GUI usable
+11 GUI scenarios passed, 0 failed. Fictional accounts only.

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">AccessLab — C++ Authentication Studio</title>
+<desc id="desc">A native C++ OOP project that makes account creation, salted password hashing, and login verification visible.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#111a31"/><stop offset="1" stop-color="#26204d"/></linearGradient><linearGradient id="accent"><stop stop-color="#b6a6ff"/><stop offset="1" stop-color="#72dfc0"/></linearGradient></defs>
+<rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+<path d="M0 251H1200M0 201H1200M0 151H1200M800 0V300M850 0V300M900 0V300M950 0V300M1000 0V300M1050 0V300M1100 0V300M1150 0V300" stroke="#b5a7ff" stroke-opacity=".045"/>
+<rect x="44" y="34" width="218" height="28" rx="14" fill="#302c54"/>
+<circle cx="61" cy="48" r="4" fill="#8bdec2"/>
+<text x="75" y="53" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#d0c6ff">LEARN. BUILD. VERIFY.</text>
+<text x="42" y="150" font-family="Arial,sans-serif" font-size="76" font-weight="700" letter-spacing="-3" fill="#f3f2ff">AccessLab<tspan fill="#a393ff">.</tspan></text>
+<text x="46" y="192" font-family="Arial,sans-serif" font-size="23" fill="#c2bddb">C++ Authentication Studio</text>
+<text x="46" y="237" font-family="Arial,sans-serif" font-size="16" fill="#9898b7">Create accounts. Trace the hash. Understand the OOP.</text>
+<circle cx="958" cy="150" r="107" fill="none" stroke="#8f7bdb" stroke-opacity=".19"/>
+<circle cx="958" cy="150" r="78" fill="none" stroke="#8f7bdb" stroke-opacity=".21"/>
+<path d="M826 104H868L895 132M1022 170L1045 197H1121" fill="none" stroke="#7a70ac" stroke-width="2"/>
+<rect x="905" y="96" width="108" height="108" rx="28" fill="#353155" stroke="#625486"/>
+<path d="M959 119L987 130L983 159C980 174 969 183 959 188C949 183 938 174 935 159L931 130Z" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linejoin="round"/>
+<path d="M946 151L956 162L974 140" fill="none" stroke="#97e1cb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="777" y="73" width="110" height="37" rx="10" fill="#252b47" stroke="#4b4c74"/>
+<text x="795" y="97" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#c6b8ff">SALT / 128</text>
+<rect x="1040" y="195" width="120" height="37" rx="10" fill="#233a42" stroke="#3d675f"/>
+<text x="1055" y="219" font-family="Arial,sans-serif" font-size="13" font-weight="700" fill="#9be2c9">HASH / 256</text>
+<circle cx="879" cy="116" r="4" fill="#b6a0fa"/><circle cx="1041" cy="193" r="4" fill="#8cdcc4"/>
+</svg>
